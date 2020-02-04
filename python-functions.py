@@ -1,6 +1,6 @@
 import spacy
 
-nlp = spacy.load("model/en_core_web_sm/en_core_web_sm-2.2.0")
+nlp = spacy.load("model/en_core_web_sm/en_core_web_sm-2.2.5")
 
 def get_token_attributes(stringlist):
   """Takes a list of strings, tokenises, parses and tags them, and returns the attributes of each token"""
